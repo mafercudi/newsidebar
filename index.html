@@ -58,10 +58,15 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="WhatsApp" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-		<a id="ChatGPT" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-robot"></i> GPT</a>
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i>Home</a>
+		<a id="WhatsApp" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+		<a id="ChatGPT" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-robot"></i>GPT</a>
+		<a id="Hubspot" onclick="navigate(this.id)" href="#"><i class="fa-brands fa-hubspot"></i>Hubspot</a>
+		<a id="Prompts" onclick="navigate(this.id)" href="#"><i class="fa-solid fa-terminal"></i>Prompts</a>
+		<a id="Mail" onclick="navigate(this.id)" href="#"><i class="fa-solid fa-envelope"></i>Mail</a>
+		
 
+		
 	</nav>
 
 
@@ -81,7 +86,12 @@
 				window.open("https://web.whatsapp.com/", '_blank').focus();
 			else if (id == "ChatGPT")
 				window.open("https://chat.openai.com/", '_blank').focus();
-		
+			else if (id == "Hubspot")
+				window.open("https://app.hubspot.com/reports-dashboard/23480943/view/11511274", '_blank').focus();
+			else if (id == "Prompts")
+				window.open("https://www.notion.so/Prompts-7530bf2b0c1c47e78146d86584c5f440", '_blank').focus();
+			else if (id == "Mail")
+				window.open("https://mail.google.com/mail/u/0/#inbox", '_blank').focus();
 
 		}
 	</script>
